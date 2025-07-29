@@ -1627,3 +1627,32 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* My customization */
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 0;
+  font-family: sans-serif;
+}
+.tech-item {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.tech-item.hide {
+  display: none;
+}
+#toggle-btn {
+  margin-top: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
